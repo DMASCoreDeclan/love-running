@@ -187,30 +187,26 @@ hr {
     height: 100%;
     border-radius: 50%;
     margin: 0 auto;
-
 }
 
 /* event times */
+
 #times {
     background-image: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     overflow: hidden;
 }
-
-/* #times-cover {
+#times div{
+    color:#fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
     height: 300px;
-    width: 100%;
-    padding: 5px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    margin: 0 auto;
-
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
-
-#times-cover-bg {
-    background: url('../images/dublin-city.webp') no-repeat center center;
-    height: 100%;
-    margin: 0 auto; */
