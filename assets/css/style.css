@@ -212,6 +212,10 @@ hr {
     box-sizing: border-box;
 }
 
+#times h2 {
+    color: #fafafa;
+}
+
 /* footer */
 footer {
     height: 150px;
@@ -278,6 +282,13 @@ footer {
         padding: 0;
     }
 
+    #times div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0px;
+    }
+
     hr {
         display: none;
     }
@@ -292,7 +303,7 @@ footer {
 
 /* For medium screens from 950px wide and down */
 @media screen and (max-width: 950px) {
-    
+
     #menu {
         clear: left;
         float: left;
@@ -323,7 +334,8 @@ footer {
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
@@ -368,5 +380,5 @@ footer {
         line-height: 0px;
         column-count: 1;
         column-gap: 0px;
-    } */
-}
+    } 
+} */
